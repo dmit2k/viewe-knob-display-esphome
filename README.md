@@ -1,14 +1,19 @@
 ## Documentation and ESPHome templates for 1.28 inch 240*240 ESP32C3 Round Display with Rotary Knob UEDX24240013-MD50E by VIEWE company
 
-This display is available on Aliexpress for less then $25, it has a round IPS display with 240x240 resolution, display driver GC9A01A with LVGL support, PWM-controllable backlight and aluminium rotary knob with push button. 
+This display is available on AliExpress for less than $25. It is based on the ESP32C3 chip and features a round IPS display with a 240x240 resolution, a GC9A01A display driver with LVGL support, PWM-controllable backlight, and an aluminum rotary encoder knob around the display with a push button function.
 
-The display should be powered with 5V and controlled by a 10-pin FFC flat cable but ships with a development breakout board wich has a micro-USB socket and holes for external power and different pin connectors onboard. 
+The display should be powered by 5V and connected via a 10-pin FFC flat cable. It comes with a development breakout board that includes a micro-USB socket and pinholes for connecting external power and accessing GPIO pins.
 
-This dev board seems to be unified for different display types and has two sockets for FFC cables and provides some additional pins which are not actually present in this specific display. But easy access to GND, 5V power and 3 unused GPIO pins (GPIO03 ADC, GPIO20 RX and GPIO21 TX) is very handy.
+This dev board appears to be unified for different display types, as it has two sockets for FFC cables and provides some additional pins that are not used by this specific display. However, the easy access to GND, 5V power, and 3 unused GPIO pins (GPIO03 ADC, GPIO20 RX, and GPIO21 TX) for connecting additional components like sensors is very convenient.
 
-The build and material quality are really high, it looks really nice and the knob has very pleasant tactile feedback. The display is really bright and has wide view angles. This product has no touch screen, but for such a compact size it is actually not required.
+The build and material quality are very high. It looks great, and the knob has a satisfying tactile feedback. The display is bright with wide viewing angles. While this product does not have a touch screen, for such a compact size, it is not necessary, as the encoder knob is sufficient.
 
-## Aliexpress 
+![IMG_9045](https://github.com/user-attachments/assets/8b267a25-97ab-4afd-86f0-aa7f2b791cab)
+
+![IMG_9044](https://github.com/user-attachments/assets/c5f43b60-2be2-46e5-8145-3b286b8ff76a)
+
+
+## Aliexpress (manufacturer shop)
 https://www.aliexpress.com/item/1005007045539218.html
 
 ![1.3 Primary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Primary.png)![1.3 Secondary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Secondary.png)
