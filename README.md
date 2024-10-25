@@ -38,7 +38,7 @@ https://viewedisplay.com/product/1-28-inch-240240-esp32-round-knob-smart-tft-dis
 https://github.com/VIEWESMART
 
 # Manufacturer documentation and code examples for Arduino and ESP32-IDF:
-https://github.com/VIEWESMART/ESP32-IDF/
-https://github.com/VIEWESMART/ESP32-IDF/tree/main/examples/1.3inch
-https://github.com/VIEWESMART/ESP32-Arduino
-https://github.com/VIEWESMART/ESP32-Arduino/tree/main/examples/1.3inch
+[https://github.com/VIEWESMART/ESP32-IDF/](https://github.com/VIEWESMART/ESP32-IDF/)
+[https://github.com/VIEWESMART/ESP32-IDF/tree/main/examples/1.3inch](https://github.com/VIEWESMART/ESP32-IDF/tree/main/examples/1.3inch)
+[https://github.com/VIEWESMART/ESP32-Arduino](https://github.com/VIEWESMART/ESP32-Arduino)
+[https://github.com/VIEWESMART/ESP32-Arduino/tree/main/examples/1.3inch](https://github.com/VIEWESMART/ESP32-Arduino/tree/main/examples/1.3inch)
