@@ -1,6 +1,5 @@
-# Documentation and ESPHome templates for
-# 1.28 inch 240*240 ESP32C3 Round Display with Rotary Knob 
-## produced by VIEWE company, model UEDX24240013-MD50E
+## Documentation and ESPHome templates for 1.28 inch 240*240 ESP32C3 Round Display with Rotary Knob 
+produced by VIEWE company, model UEDX24240013-MD50E
 
 This display is available on Aliexpress for less then $25, it has a round IPS display with 240x240 resolution, display driver GC9A01A with LVGL support, PWM-controllable backlight and aluminium rotary knob with push button. 
 
@@ -10,12 +9,12 @@ This dev board seems to be unified for different display types and has two socke
 
 The build and material quality are really high, it looks really nice and the knob has very pleasant tactile feedback. The display is really bright and has wide view angles. This product has no touch screen, but for such a compact size it is actually not required.
 
-# Aliexpress 
+## Aliexpress 
 https://www.aliexpress.com/item/1005007045539218.html
 
 ![1.3 Primary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Primary.png)![1.3 Secondary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Secondary.png)
 
-# Quick Specifications according to manufacturer:
+## Quick Specifications according to manufacturer:
 Model：UEDX24240013-MD50E
 1) CPU:  ESP32-C3
 2) Storage: 400K Ram + 4MB Flash
@@ -27,19 +26,19 @@ Model：UEDX24240013-MD50E
 8) Storage temperature: -30~80°C
 9) Working temperature: -20~70°C
 
-# Full Product Specification and Schematics
+## Full Product Specification and Schematics
 https://github.com/VIEWESMART/ESP32-Product-Specification-and-Schematic/tree/main/1.3inch
 
-# Manufacturer web site:
+## Manufacturer web site:
 https://viewedisplay.com
 
-# Product page:
+## Product page:
 https://viewedisplay.com/product/1-28-inch-240240-esp32-round-knob-smart-tft-display-with-rotary-knob-wifi-ble/
 
-# Manufacturer GitHub account:
+## Manufacturer GitHub account:
 https://github.com/VIEWESMART
 
-# Manufacturer documentation and code examples for Arduino and ESP32-IDF:
+## Manufacturer documentation and code examples for Arduino and ESP32-IDF:
 [https://github.com/VIEWESMART/ESP32-IDF/](https://github.com/VIEWESMART/ESP32-IDF/) 
 
 [https://github.com/VIEWESMART/ESP32-IDF/tree/main/examples/1.3inch](https://github.com/VIEWESMART/ESP32-IDF/tree/main/examples/1.3inch) 
