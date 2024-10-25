@@ -1,4 +1,6 @@
-# 1.28 inch 240*240 ESP32C3 Round Display with Rotary Knob from VIEWE company, model UEDX24240013-MD50E
+# Documentation and ESPHome templates for
+# 1.28 inch 240*240 ESP32C3 Round Display with Rotary Knob 
+## produced by VIEWE company, model UEDX24240013-MD50E
 
 This display is available on Aliexpress for less then $25, it has a round IPS display with 240x240 resolution, display driver GC9A01A with LVGL support, PWM-controllable backlight and aluminium rotary knob with push button. 
 
