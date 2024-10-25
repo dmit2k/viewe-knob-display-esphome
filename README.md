@@ -2,9 +2,9 @@
 
 This display is available on AliExpress for less than $25. It is based on the ESP32C3 chip and features a round IPS display with a 240x240 resolution, a GC9A01A display driver with LVGL support, PWM-controllable backlight, and an aluminum rotary encoder knob around the display with a push button function.
 
-The display should be powered by 5V and connected via a 10-pin FFC flat cable. It comes with a development breakout board that includes a micro-USB socket and pinholes for connecting external power and accessing GPIO pins.
+The display should be powered by 5V and connected via a 10-pin FPC flat cable. It comes with a development breakout board that includes a micro-USB socket and pinholes for connecting external power and accessing GPIO pins.
 
-This dev board appears to be unified for different display types, as it has two sockets for FFC cables and provides some additional pins that are not used by this specific display. However, the easy access to GND, 5V power, and 3 unused GPIO pins (GPIO03 ADC, GPIO20 RX, and GPIO21 TX) for connecting additional components like sensors is very convenient.
+This dev board appears to be unified for different display types, as it has two sockets for FPC cables and provides some additional pins that are not used by this specific display. However, the easy access to GND, 5V power, and 3 unused GPIO pins (GPIO03 ADC, GPIO20 RX, and GPIO21 TX) for connecting additional components like sensors is very convenient.
 
 The build and material quality are very high. It looks great, and the knob has a satisfying tactile feedback. The display is bright with wide viewing angles. While this product does not have a touch screen, for such a compact size, it is not necessary, as the encoder knob is sufficient.
 
@@ -12,13 +12,15 @@ The build and material quality are very high. It looks great, and the knob has a
 
 ![IMG_9044](https://github.com/user-attachments/assets/c5f43b60-2be2-46e5-8145-3b286b8ff76a)
 
+![IMG_9047](https://github.com/user-attachments/assets/201eadf4-19cc-404a-a64a-3eebcaf46a91)
 
-## Aliexpress (manufacturer shop)
+
+# Aliexpress (manufacturer shop)
 https://www.aliexpress.com/item/1005007045539218.html
 
 ![1.3 Primary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Primary.png)![1.3 Secondary](https://github.com/VIEWESMART/image/blob/main/1.3inch_Secondary.png)
 
-## Quick Specifications according to manufacturer:
+# Quick Specifications according to manufacturer:
 Model：UEDX24240013-MD50E
 1) CPU:  ESP32-C3
 2) Storage: 400K Ram + 4MB Flash
