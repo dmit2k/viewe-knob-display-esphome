@@ -1,0 +1,93 @@
+esphome:
+  name: knob-display-lvgl-template
+  friendly_name: knob-display-lvgl-template
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "YOUR_API_KEY_HERE"
+
+ota:
+  platform: esphome
+  password: "YOUR_OTA_PASSWORD_HERE"
+
+wifi:
+  networks:
+    - ssid: !secret wifi_ssid
+      password: !secret wifi_password
+    - ssid:  "YOUR_SSID_HERE"
+      password: "YOUR_WIFI_PASSWORD_HERE"
+
+  ap:
+    ssid: "Esp32C3-Knob-Display"
+    password: "AP_PASSWORD_HERE"
+
+captive_portal:
+
+web_server:
+
+# Enable LVGL
+lvgl:
+
+# SPI configuration
+spi:
+  id: spi_bus
+  clk_pin: 1
+  mosi_pin: 0
+
+# Configure the display to use LVGL
+display:
+  - platform: ili9xxx
+    model: GC9A01A
+    cs_pin: 10
+    dc_pin: 4
+    reset_pin: 2
+    rotation: 0
+    id: round_display
+    spi_id: spi_bus
+    invert_colors: true
+    # next two lines required for LVGL mode
+    auto_clear_enabled: false
+    update_interval: never
+
+# Backlight control using LEDC output
+output:
+  - platform: ledc
+    id: backlight_output
+    inverted: True
+    pin: 8
+    frequency: 5000Hz
+
+light:
+  - platform: monochromatic
+    name: "Display Backlight"
+    output: backlight_output
+    restore_mode: RESTORE_DEFAULT_ON
+
+# Rotary encoder configuration
+sensor:
+  - platform: rotary_encoder
+    id: my_rotary_encoder
+    name: "Rotary Encoder"
+    pin_a: 6
+    pin_b: 7
+    resolution: 2
+
+binary_sensor:
+  - platform: gpio
+    id: encoder_button
+    pin: 
+      number: 9
+      inverted: true
+    name: "Rotary Encoder Button"
+    filters:
+      - delayed_on: 50ms
+      - delayed_off: 50ms
