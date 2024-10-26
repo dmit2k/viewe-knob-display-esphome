@@ -14,6 +14,9 @@ The build and material quality are very high. It looks great, and the knob has a
 
 ![IMG_9047](https://github.com/user-attachments/assets/201eadf4-19cc-404a-a64a-3eebcaf46a91)
 
+## Demo video of ESPHome LVGL kitchen hood timer and ventilation control app prototype. Display is running 40% brightness. Actual video quality looks not so good as the display really performs (no flickering, no color tint, very sharp edges)
+
+https://youtu.be/72yZuVzMxHs?si=tAFymHM5Zbg2VTi-
 
 ## Aliexpress (manufacturer shop)
 https://www.aliexpress.com/item/1005007045539218.html
