@@ -36,7 +36,7 @@ Model：UEDX24240013-MD50E
 9) Working temperature: -20~70°C
 
 ## Full Product Specification and Schematics
-https://github.com/VIEWESMART/ESP32-Product-Specification-and-Schematic/tree/main/1.3inch
+[https://github.com/VIEWESMART/ESP32-Product-Specification-and-Schematic/tree/main/1.3inch](https://github.com/VIEWESMART/Product-Specification-and-Schematic/tree/main/ESP32/1.3inch)
 
 ## Manufacturer web site:
 https://viewedisplay.com
